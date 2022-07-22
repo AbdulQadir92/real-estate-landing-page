@@ -1,0 +1,110 @@
+#gallery {
+    padding: 80px 0 !important;
+    height: auto;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.gallery-img-1 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/carousel/carousel1.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-2 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/features/feature1.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-3 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/features/feature2.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-4 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/features/feature3.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-5 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/pricing/pricing1.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-6 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/pricing/pricing2.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-7 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/pricing/pricing3.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.gallery-img-8 {
+    width: 22%;
+    height: 16em;
+    position: relative;
+    background: url('../images/features/feature3.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.inner-div {
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 16em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    box-sizing: border-box;
+    color: white;
+    padding-top: 50px;
+}
+
+div [class *= "gallery-img"]:hover .inner-div {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 576px) {
+    div [class *= "gallery-img"] {
+        width: 95%;
+        margin: 0 auto 20px;
+    }
+}
+
+.inner-div h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inner-div p {
+    text-align: center;
+    margin-top: 10px;
+}

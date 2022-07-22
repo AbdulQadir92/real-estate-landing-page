@@ -1,0 +1,56 @@
+:root {
+    --nav-bg: #42C2FF;
+    --underline-color: #034563;
+    --btn-color: #048fd1;
+    --btn-color-hover: #047cb5;
+
+    --main-bg: rgba(195, 232, 250, 0.8);
+    --sec-bg: #ebf3f7;
+
+    --main-color: rgba(195, 232, 250);
+    --sec-color: #ebf3f7;
+}
+
+.body-bg {
+    background-color: #daf5f4;
+}
+
+.nav-bg {
+    background-color: var(--nav-bg);
+}
+
+/* Backgrounds */
+.main-bg {
+    background-color: var(--main-bg);
+}
+
+.sec-bg {
+    background-color: var(--sec-bg);
+}
+
+/* Colors */
+.main-color {
+    color: var(--main-color);
+}
+
+.sec-color {
+    color: var(--sec-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, serif;
+}
+
+section, nav {
+    font-family: Poppins, sans-serif;
+}
+
+.section-height {
+    height: 35em;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Real Estate</title>
+        
+        <!-- Bootstrap -->
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/home.css" rel="stylesheet">
+        <link href="css/features.css" rel="stylesheet">
+        <link href="css/pricing.css" rel="stylesheet">
+        <link href="css/gallery.css" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark sticky-top nav-bg shadow-sm" id="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand ms-5" href="#">Real Estate</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                    </ul>
+                    <ul class="navbar-nav me-5">
+                      <li class="nav-item">
+                        <a class="nav-link active link-decoration" href="#home" id="homeLink">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#features" id="featuresLink">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#pricing" id="pricingLink">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#gallery" id="galleryLink">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#contact" id="contactLink">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+            </nav>
+
+            <!-- Home -->
+            <section id="home">
+                <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="images/carousel/carousel1.jpg" class="d-block w-100 img-height" alt="Interior of a Bungalow">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Bungalow</h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quas!</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="4000">
+                        <img src="images/carousel/carousel2.jpg" class="d-block w-100 img-height" alt="Interior of an Apartment">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Apartment</h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, fugit?</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+
+            <!-- Features -->
+            <section id="features">
+                <h1 class="text-center">Features</h1>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly mt-5">
+
+                    <div class="card shadow-sm rouded card-width">
+                        <div class="img-holder">
+                            <img src="images/features/feature1.jpg" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="card-heading">
+                                <h4>Elegant Interiors</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm rouded card-width">
+                        <div class="img-holder">
+                            <img src="images/features/feature2.jpg" alt="">
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="card-heading">
+                                <h4>Relaxing Living Room</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm rouded card-width">
+                        <div class="img-holder">
+                            <img src="images/features/feature3.jpg" alt="">
+                        </div>
+                        <div class="card-body p-0 main-bg">
+                            <div class="card-heading">
+                                <h4>Modern Kitchen</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Pricing -->
+            <section id="pricing" class="sec-bg">
+                <h1 class="text-center">Pricing</h1>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly mt-5">
+                    <div class="card shadow-sm rounded pricing-card-width">
+                        <div class="card-body p-0">
+                            <div class="pricing-header">
+                                <h4>House A</h4>
+                            </div>
+                            <div class="pricing-img-holder">
+                                <img src="images/pricing/pricing1.jpg" alt="">
+                            </div>
+                            <div class="pricing-desc">
+                                <h1 class="price">$125,000</h1>
+                                <div class="desc-body">
+                                    <div>245m<sup>2</sup></div>
+                                    <div>1 Bathroom</div>
+                                    <div>10 m<sup>2</sup> Balcony</div>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="rounded agent-btn">Contact Agent</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm rounded pricing-card-width">
+                        <div class="card-body p-0">
+                            <div class="pricing-header">
+                                <h4>House B</h4>
+                            </div>
+                            <div class="pricing-img-holder">
+                                <img src="images/pricing/pricing2.jpg" alt="">
+                            </div>
+                            <div class="pricing-desc">
+                                <h1 class="price">$149,000</h1>
+                                <div class="desc-body">
+                                    <div>272m<sup>2</sup></div>
+                                    <div>2 Bathrooms</div>
+                                    <div>2 Bedrooms</div>
+                                    <div>10 m<sup>2</sup> Balcony</div>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="rounded agent-btn">Contact Agent</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow-sm rounded pricing-card-width">
+                        <div class="card-body p-0">
+                            <div class="pricing-header">
+                                <h4>House C</h4>
+                            </div>
+                            <div class="pricing-img-holder">
+                                <img src="images/pricing/pricing3.jpg" alt="">
+                            </div>
+                            <div class="pricing-desc">
+                                <h1 class="price">$130,000</h1>
+                                <div class="desc-body">
+                                    <div>250m<sup>2</sup></div>
+                                    <div>1 Bathroom</div>
+                                    <div>10 m<sup>2</sup> Balcony</div>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="rounded agent-btn">Contact Agent</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Gallery -->
+            <section id="gallery">
+                <h1 class="text-center">Gallery</h1>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly mt-5 margin-bottom">
+                    <div class="gallery-img-1">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House A</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-2">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House B</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-img-3">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House C</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-4">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House D</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly">
+                    <div class="gallery-img-5">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House E</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-6">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House F</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-7">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House G</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-img-8">
+                        <div class="inner-div">
+                            <div>
+                                <h1>House H</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="sec-bg">
+                <h1 class="text-center">Contact</h1>
+                <div class="d-flex flex-column flex-sm-row justify-content-evenly mt-5">
+
+                    <div class="agent-details shadow-sm border rounded">
+                        <h4 class="text-center">Our Agent</h4>
+                        <div class="d-flex justify-content-evenly mt-3">
+                            <div class="agent-detail px-3">
+                                <h6 class="pb-1 text-secondary agent-mt">Name:</h6>
+                                <h6>Abdul Qadir</h6>
+                            </div>
+                            <div class="agent-detail px-3">
+                                <h6 class="pb-1 text-secondary agent-mt">Phone:</h6>
+                                <h6>03331234567</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-evenly mt-3">
+                            <div class="agent-detail px-3">
+                                <h6 class="pb-1 text-secondary agent-mt">Email:</h6>
+                                <h6 class="d-flex flex-column flex-lg-row">
+                                    <div>a.qadir.jamali</div>
+                                    <div>@gmail.com</div>
+                                </h6>
+                            </div>
+                            <div class="agent-detail px-3">
+                                <h6 class="pb-1 text-secondary agent-mt">Skype:</h6>
+                                <h6>Abdul Qadir</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form shadow-sm border rounded">
+                        <h4 class="text-center">Contact Form</h4>
+                        <form class="mt-3" autocomplete="off" id="contact-form">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control form-control-sm sec-bg" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="subject" class="form-control form-control-sm sec-bg" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-sm sec-bg contact-form-textarea" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button class="contact-btn" type="submit">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <div>Copyrights &#169; 2022, All Rights Reserved</div>
+            </footer>
+        </div>
+
+        <!-- Bootstrap -->
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+        <!-- JS -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

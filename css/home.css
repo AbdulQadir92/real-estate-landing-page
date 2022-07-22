@@ -1,0 +1,16 @@
+#home {
+    height: 36em;
+}
+
+.img-height {
+    height: 36em;
+}
+
+@media screen and (max-width: 576px) {
+    #home {
+        height: 20em;
+    }
+    .img-height {
+        height: 20em;
+    }
+}
