@@ -1,10 +1,10 @@
 :root {
-    --nav-bg: #42C2FF;
-    --underline-color: #034563;
+    --nav-bg: #034563;
+    --underline-color: #42C2FF;
     --btn-color: #048fd1;
     --btn-color-hover: #047cb5;
 
-    --main-bg: rgba(195, 232, 250, 0.8);
+    --main-bg: #034563;
     --sec-bg: #ebf3f7;
 
     --main-color: rgba(195, 232, 250);
@@ -13,28 +13,6 @@
 
 .body-bg {
     background-color: #daf5f4;
-}
-
-.nav-bg {
-    background-color: var(--nav-bg);
-}
-
-/* Backgrounds */
-.main-bg {
-    background-color: var(--main-bg);
-}
-
-.sec-bg {
-    background-color: var(--sec-bg);
-}
-
-/* Colors */
-.main-color {
-    color: var(--main-color);
-}
-
-.sec-color {
-    color: var(--sec-color);
 }
 
 * {

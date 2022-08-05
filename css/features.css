@@ -9,27 +9,58 @@
 }
 
 #features .card:hover .card-heading {
-    background-color: var(--nav-bg);
+    background-color: var(--underline-color);
 }
 
 .card-heading h4 {
     margin-bottom: 0;
+    color: white;
 }
 
 .card-width {
     width: 30%;
-    height: 30em;
-}
-
-@media screen and (max-width: 576px) {
-    .card-width {
-        width: 95%;
-        height: 29.8em;
-        margin: 0 auto 20px;
-    }
 }
 
 .img-holder img {
     width: 100%;
     height: 25em;
+}
+
+@media screen and (max-width: 992px) {
+    #features {
+        padding: 60px 0 !important;
+    }
+
+    .card-heading {
+        padding: 25px 0;
+    }
+
+    .card-heading h4 {
+        font-size: 20px !important;
+    }
+
+    .img-holder img {
+        height: 20em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #features {
+        padding: 40px 0 !important;
+    }
+
+    .card-heading h4 {
+        font-size: 16px !important;
+    }
+
+    .img-holder img {
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-width {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
 }

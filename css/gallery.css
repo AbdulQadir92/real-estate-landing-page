@@ -92,13 +92,6 @@ div [class *= "gallery-img"]:hover .inner-div {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width: 576px) {
-    div [class *= "gallery-img"] {
-        width: 95%;
-        margin: 0 auto 20px;
-    }
-}
-
 .inner-div h1 {
     text-align: center;
     margin-top: 10px;
@@ -107,4 +100,44 @@ div [class *= "gallery-img"]:hover .inner-div {
 .inner-div p {
     text-align: center;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    #gallery {
+        padding: 60px 0 !important;
+    }
+
+    div [class *= "gallery-img"], .inner-div {
+        height: 12em;
+    }
+
+    .inner-div h1 {
+        font-size: 20px;
+    }
+
+    .inner-div p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        padding: 40px 0 !important;
+    }
+
+    div [class *= "gallery-img"], .inner-div {
+        height: 10em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    div [class *= "gallery-img"] {
+        width: 80%;
+        margin: 0 auto 20px;
+        height: 16em;
+    }
+
+    .inner-div {
+        height: 16em;
+    }
 }

@@ -2,19 +2,15 @@
 #contact {
     padding: 80px 0 !important;
     height: auto;
+    background-color: var(--sec-bg);
 }
 
 .agent-details {
     width: 46.5%;
     height: 20em;
     padding: 20px 0;
-    background-color: white;
-}
-
-@media screen and (max-width: 576px) {
-    .agent-details {
-        width: 100%;
-    }
+    background-color: var(--main-bg);
+    color: white;
 }
 
 .agent-detail {
@@ -22,6 +18,7 @@
     width: 45%;
     height: 100px;
     background-color: var(--sec-bg);
+    color: black;
 }
 
 .agent-detail h6 {
@@ -37,19 +34,17 @@
     margin-top: 27px;
 }
 
-
 /* Contact Form */
 .contact-form {
     width: 46.5%;
     height: 20em;
     padding: 20px;
-    background-color: white;
+    background-color: var(--main-bg);
+    color: white;
 }
 
-@media screen and (max-width: 576px) {
-    .contact-form {
-        width: 100%;
-    }
+#contact-form input, #contact-form textarea {
+    background-color: var(--sec-bg);
 }
 
 .contact-form-textarea {
@@ -74,4 +69,32 @@
     border-color: rgba(66, 195, 255, 0.8);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(66, 195, 255, 0.6);
     outline: 0 none;
+}
+
+@media screen and (max-width: 992px) {
+    #contact {
+        padding: 60px 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact {
+        padding: 40px 0 !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .agent-details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-main {
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
 }
