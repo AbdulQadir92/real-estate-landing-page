@@ -1,18 +1,23 @@
 :root {
+    /* --nav-bg: #034563;
+    --underline-color: #42C2FF; */
+
     --nav-bg: #034563;
-    --underline-color: #42C2FF;
-    --btn-color: #048fd1;
-    --btn-color-hover: #047cb5;
+    --underline-color:#42C2FF;
 
-    --main-bg: #034563;
-    --sec-bg: #ebf3f7;
+    --btn-color:#048fd1;
+    --btn-color-hover:#047cb5;
 
-    --main-color: rgba(195, 232, 250);
-    --sec-color: #ebf3f7;
+    --main-bg:#42C2FF;
+    --main-bg-hover:#034563;
+    /* --main-bg: #034563; */
+    --sec-bg:#ebf3f7;
+
+    --footer-bg:#034563;
 }
 
 .body-bg {
-    background-color: #daf5f4;
+    background-color:#daf5f4;
 }
 
 * {

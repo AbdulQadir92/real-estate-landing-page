@@ -13,6 +13,10 @@
     color: white;
 }
 
+.agent-details:hover {
+    background-color: var(--main-bg-hover);
+}
+
 .agent-detail {
     margin-bottom: 10px;
     width: 45%;
@@ -41,6 +45,10 @@
     padding: 20px;
     background-color: var(--main-bg);
     color: white;
+}
+
+.contact-form:hover {
+    background-color: var(--main-bg-hover);
 }
 
 #contact-form input, #contact-form textarea {

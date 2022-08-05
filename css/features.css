@@ -9,7 +9,7 @@
 }
 
 #features .card:hover .card-heading {
-    background-color: var(--underline-color);
+    background-color: var(--main-bg-hover);
 }
 
 .card-heading h4 {

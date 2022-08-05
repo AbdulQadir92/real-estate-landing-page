@@ -10,7 +10,7 @@
 
 .pricing-header {
     text-align: center;
-    padding: 25px;
+    padding: 15px;
     background-color: var(--main-bg);
     color: white;
 }
@@ -28,7 +28,7 @@
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
-    padding: 15px 0;
+    padding: 8px 0;
 }
 
 .desc-body {
@@ -54,20 +54,16 @@
 }
 
 #pricing .card:hover .pricing-header {
-    background-color: var(--underline-color);
+    background-color: var(--main-bg-hover);
 }
 
 #pricing .card:hover .desc-body {
-    background-color: var(--underline-color);
+    background-color: var(--main-bg-hover);
 }
 
 @media screen and (max-width: 992px) {
     #pricing {
         padding: 60px 0 !important;
-    }
-
-    .pricing-header {
-        padding: 20px;
     }
 
     .pricing-header h4 {
@@ -80,7 +76,6 @@
 
     .price {
         font-size: 28px;
-        padding: 13px 0;
     }
 
     .desc-body {
@@ -99,7 +94,6 @@
 
     .price {
         font-size: 25px;
-        padding: 11px 0;
     }
 }
 
