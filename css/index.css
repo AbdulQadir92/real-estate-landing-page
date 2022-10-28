@@ -3,15 +3,46 @@
     --sec-color: #42C2FF;
 
     --main-bg: rgba(195, 232, 250);
-    --sec-bg: #ebf3f7;
+    --sec-bg: #fff;
 
     /* --btn-color: #048fd1;
     --btn-color-hover: #047cb5; */
 
-    --main-text: #fff;
-    --sec-text: #ebf3f7;
+    --light-text: #fff;
+    --light-text-sec: #ebf3f7;
 
-    --section-padding: 50px 5%;
-    --nav-pl: 5%;
-    --nav-pr: 5%;
+    --dark-text: #000;
+    --dark-text-sec: rgb(50, 50, 50);
+
+    --section-padding: 60px 5% !important;
+    --nav-pl: 5% !important;
+    --nav-pr: 5% !important;
+
+    --card-heading-font: 25px !important;
+}
+
+.section-heading {
+    font-size: 50px !important;
+    margin-bottom: 35px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+/* Media Queries */
+@media (max-width: 1199px) {
+    :root {
+        --card-heading-font: 22px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    :root {
+        --card-heading-font: 20px !important;
+    }
+
+    .section-heading {
+        font-size: 40px !important;
+        margin-bottom: 35px;
+    }
 }

@@ -5,9 +5,9 @@
 }
 
 .navbar-brand {
-    color: var(--main-text) !important;
+    color: var(--light-text) !important;
 }
 
 #navbar .nav-link {
-    color: var(--main-text) !important;
+    color: var(--light-text) !important;
 }
