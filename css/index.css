@@ -1,0 +1,17 @@
+:root {
+    --main-color: #034563;
+    --sec-color: #42C2FF;
+
+    --main-bg: rgba(195, 232, 250);
+    --sec-bg: #ebf3f7;
+
+    /* --btn-color: #048fd1;
+    --btn-color-hover: #047cb5; */
+
+    --main-text: #fff;
+    --sec-text: #ebf3f7;
+
+    --section-padding: 50px 5%;
+    --nav-pl: 5%;
+    --nav-pr: 5%;
+}

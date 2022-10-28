@@ -1,16 +1,21 @@
-#home {
-    height: 36em;
+#home, #home img {
+    height: 100vh !important;
 }
 
-.img-height {
-    height: 36em;
-}
-
-@media screen and (max-width: 576px) {
-    #home {
-        height: 20em;
+@media (max-width: 992px) {
+    #home, #home img {
+        height: 550px !important;
     }
-    .img-height {
-        height: 20em;
+}
+
+@media (max-width: 768px) {
+    #home, #home img {
+        height: 450px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #home, #home img {
+        height: 350px !important;
     }
 }
