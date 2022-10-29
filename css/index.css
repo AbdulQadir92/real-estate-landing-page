@@ -14,6 +14,8 @@
     --dark-text: #000;
     --dark-text-sec: rgb(50, 50, 50);
 
+    --gallery-shadow: rgba(0, 0, 0, 0.5);
+
     --section-padding: 60px 5% !important;
     --nav-pl: 5% !important;
     --nav-pr: 5% !important;
