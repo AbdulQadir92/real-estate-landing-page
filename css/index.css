@@ -2,7 +2,7 @@
     --main-color: #034563;
     --sec-color: #42C2FF;
 
-    --main-bg: rgba(195, 232, 250);
+    --main-bg: rgb(241, 247, 250);
     --sec-bg: #fff;
 
     /* --btn-color: #048fd1;
@@ -30,6 +30,14 @@
 
 
 /* Media Queries */
+@media (min-width: 1400px) {
+    :root {
+        --section-padding: 60px 10% !important;
+        --nav-pl: 10% !important;
+        --nav-pr: 10% !important;
+    }
+}
+
 @media (max-width: 1199px) {
     :root {
         --card-heading-font: 22px !important;
