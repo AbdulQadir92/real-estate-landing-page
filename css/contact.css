@@ -1,0 +1,113 @@
+#contact {
+    padding: var(--section-padding);
+    background-color: var(--main-bg);
+}
+
+.contact-title {
+    color: var(--dark-text);
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Agent Details */
+.agent-details {
+    background-color: var(--sec-bg);
+    padding: 30px;
+    height: 350px;
+}
+
+.agent-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 30px;
+}
+
+.agent-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: var(--main-bg);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.agent-card>div:first-child {
+    color: var(--dark-text-sec);
+    font-weight: bold;
+}
+
+.agent-card>div:last-child {
+    color: var(--dark-text);
+    font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+    .contact-title {
+        font-size: 25px;
+    }
+
+    .agent-cards {
+        grid-gap: 15px;
+    }
+
+    .agent-card {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .agent-cards {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-gap: 30px;
+    }
+
+    .agent-card {
+        padding: 20px;
+        align-items: center;
+    }
+}
+
+
+/* Form */
+.email {
+    background-color: var(--sec-bg);
+    padding: 30px;
+    height: 350px;
+}
+
+.contact-form>div:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.btn-container {
+    text-align: right;
+}
+
+
+@media (max-width: 1199px) {
+    .agent-details, .email {
+        height: auto;
+    }
+
+    .contact-form {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 575px) {
+    .contact-form {
+        width: 100%;
+    }
+}

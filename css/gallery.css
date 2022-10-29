@@ -1,6 +1,6 @@
 #gallery {
     padding: var(--section-padding);
-    background-color: var(--main-bg);
+    background-color: var(--sec-bg);
 }
 
 .img-1 {
