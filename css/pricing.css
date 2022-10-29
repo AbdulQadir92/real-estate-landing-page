@@ -4,11 +4,12 @@
 }
 
 .pricing-card {
-    background-color: var(--main-bg);
+    border-radius: 3px;
 }
 
 .price-card-top {
     background-color: var(--sec-color);
+    border-radius: 3px 3px 0 0;
 }
 
 .price-card-top>h2 {
@@ -33,6 +34,7 @@
 }
 
 .house-details {
+    background-color: var(--main-bg);
     color: var(--dark-text);
     height: 130px;
 }
@@ -48,10 +50,6 @@
 .pricing-card:hover .house-details {
     background-color: var(--sec-color);
     color: var(--light-text);
-}
-
-.pricing-card:hover .pricing-btn {
-    border-radius: 0;
 }
 
 
