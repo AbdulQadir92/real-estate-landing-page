@@ -11,3 +11,10 @@
 #navbar .nav-link {
     color: var(--light-text) !important;
 }
+
+.active-link {
+    text-decoration: underline;
+    text-decoration-color: var(--sec-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}

@@ -9,3 +9,23 @@ form.onsubmit = function (e) {
     window.open(`mailto:a.qadir.jamali@gmail.com?subject=${subject}&body=${`Name: ${name}   Message: ${message}`}`);
     e.target.reset();
 }
+
+// Makes nav link active on scroll
+window.onscroll = function () {
+    const scrollY = window.scrollY;
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 50;
+        const sectionHeight = section.offsetHeight;
+        const sectionId = section.id;
+
+        if (scrollY > sectionTop && scrollY < sectionTop + sectionHeight) {
+            const navLink = document.querySelector(`li a[href*=${sectionId}]`);
+            navLink.classList.add('active-link');
+        } else {
+            const navLink = document.querySelector(`li a[href*=${sectionId}]`);
+            navLink.classList.remove('active-link');
+        }
+    })
+}
