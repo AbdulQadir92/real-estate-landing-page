@@ -4,7 +4,7 @@
 }
 
 .contact-title {
-    color: var(--dark-text);
+    color: var(--light-text);
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -13,7 +13,7 @@
 
 /* Agent Details */
 .agent-details {
-    background-color: var(--sec-bg);
+    background-color: var(--sec-color);
     padding: 30px;
     height: 350px;
 }
@@ -75,7 +75,7 @@
 
 /* Form */
 .email {
-    background-color: var(--sec-bg);
+    background-color: var(--sec-color);
     padding: 30px;
     height: 350px;
 }
