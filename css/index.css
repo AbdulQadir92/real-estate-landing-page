@@ -5,9 +5,6 @@
     --main-bg: rgb(241, 247, 250);
     --sec-bg: #fff;
 
-    /* --btn-color: #048fd1;
-    --btn-color-hover: #047cb5; */
-
     --light-text: #fff;
     --light-text-sec: #cfe9f8;
 
@@ -15,6 +12,9 @@
     --dark-text-sec: #6c757d;
 
     --gallery-shadow: rgba(0, 0, 0, 0.5);
+
+    --footer-bottom: #023045;
+
 
     --section-padding: 60px 5% !important;
     --nav-pl: 5% !important;

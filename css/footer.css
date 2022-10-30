@@ -1,9 +1,96 @@
 footer {
     background-color: var(--main-color);
-    padding: 25px;
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: space-between;
+
+    padding: var(--section-padding);
+}
+
+.footer-main>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-heading {
+    color: var(--light-text);
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-us>div {
+    color: var(--light-text-sec);
     text-align: center;
 }
 
-footer>div {
+.quick-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-ul>li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.quick-ul a {
+    text-decoration: none;
     color: var(--light-text-sec);
+}
+
+.quick-ul a:hover {
+    color: var(--light-text);
+}
+
+.social-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: var(--sec-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.social-ul a {
+    text-decoration: none;
+}
+
+.social-ul .fa-brands, .social-ul .fas {
+    font-size: 20px;
+    color: var(--light-text);
+}
+
+.social-ul a:hover {
+    color: var(--light-text);
+}
+
+.footer-bottom {
+    background-color: var(--footer-bottom);
+    color: var(--light-text-sec);
+    text-align: center;
+    padding: 25px;
+}
+
+
+@media (max-width: 767px) {
+    .footer-main {
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+    }
 }
