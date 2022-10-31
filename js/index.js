@@ -29,3 +29,35 @@ window.onscroll = function () {
         }
     })
 }
+
+// Toggles theme
+const moon = document.querySelector('.fa-moon');
+const sun = document.querySelector('.fa-sun');
+const themeLink = document.querySelector('#theme');
+
+window.onload = function () {
+    const currentTheme = localStorage.getItem('theme');
+    themeLink.href = currentTheme;
+
+    if (currentTheme === 'css/dark.css') {
+        moon.parentElement.style.display = 'none';
+        sun.parentElement.style.display = 'flex';
+    } else {
+        moon.parentElement.style.display = 'flex';
+        sun.parentElement.style.display = 'none';
+    }
+}
+
+function darkTheme() {
+    localStorage.setItem('theme', 'css/dark.css');
+    moon.parentElement.style.display = 'none';
+    sun.parentElement.style.display = 'flex';
+    themeLink.href = localStorage.getItem('theme');
+}
+
+function lightTheme() {
+    localStorage.setItem('theme', '');
+    moon.parentElement.style.display = 'flex';
+    sun.parentElement.style.display = 'none';
+    themeLink.href = localStorage.getItem('theme');
+}

@@ -45,6 +45,7 @@
     border: 2px solid var(--main-color);
     border-radius: 5px;
     padding: 5px;
+    font-weight: bold;
 }
 
 .pricing-card:hover .house-details {

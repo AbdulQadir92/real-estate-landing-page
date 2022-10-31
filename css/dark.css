@@ -1,0 +1,20 @@
+:root {
+    --main-color: #bbe8fc;
+    --sec-color: #78d4ff;
+
+    /* --main-bg: #060f18; */
+    --main-bg: rgb(1, 4, 23);
+    /* --sec-bg: #07121c; */
+    --sec-bg: rgb(3, 7, 28);
+
+    --light-text: #000;
+    --light-text-sec: #373c40;
+
+    --dark-text: #fff;
+    --dark-text-sec: #d7eaf5;
+
+    --bg-same: #034563;
+    --light-text-same: #fff;
+    --gallery-shadow: rgba(255, 255, 255, 0.5);
+    --footer-bottom: #78d4ff;
+}

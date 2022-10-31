@@ -11,8 +11,9 @@
     --dark-text: #000;
     --dark-text-sec: #6c757d;
 
+    --bg-same: #034563;
+    --light-text-same: #fff;
     --gallery-shadow: rgba(0, 0, 0, 0.5);
-
     --footer-bottom: #023045;
 
 
@@ -28,6 +29,7 @@
     margin-bottom: 35px;
     text-align: center;
     font-weight: normal;
+    color: var(--dark-text);
 }
 
 .input {
@@ -42,6 +44,11 @@
     transition: box-shadow .3s;
 }
 
+::placeholder {
+    color: var(--dark-text-sec);
+    font-size: 14px;
+}
+
 .input:focus {
     border: 1px solid transparent;
     outline: 1px solid var(--sec-color);
@@ -54,6 +61,7 @@
     border: 2px solid var(--main-color);
     border-radius: 6px;
     padding: 2px 20px;
+    font-weight: bold;
     transition: .3s;
 }
 
@@ -61,6 +69,7 @@
     background-color: var(--sec-color);
     border: 2px solid var(--main-color);
 }
+
 
 /* Media Queries */
 @media (min-width: 1400px) {

@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="" id="theme" />
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/34cdbbae3a.js" crossorigin="anonymous"></script>
@@ -37,12 +38,19 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
         <div class="container-fluid p-0">
+            <div class="theme-icons">
+                <div onclick="darkTheme()">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <div onclick="lightTheme()">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+            </div>
             <a class="navbar-brand" href="#">Real Estate</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="me-auto"></ul>
                 <ul class="navbar-nav">
